@@ -1,0 +1,102 @@
+
+
+/* General body styling */
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dice styling */
+.dice {
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+/* Heading 5 styling */
+h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/* Paragraph styling */
+p {
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* Third styling */
+.third {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+/* Heading 3 styling */
+h3 {
+    color: red;
+}
+
+/* User box styling */
+.user-box {
+    width: 50%;
+}
+.form-bg{
+    background-color: rgb(29, 29, 98);
+    padding: 15px;
+    margin-top: 15px !important;
+    border-radius: 20px;
+}
+.form-btn{
+    background-color: orange;
+    border: none;
+}
+.form-btn:hover{
+    background-color: darkgoldenrod;
+}
+.place-bg{
+    background-color: transparent;
+}
+.disabeled-bg{
+    background-color: transparent !important;
+    color: blue;
+}
+.group{
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+/* Accordion container styling */
+.active{
+    background-color: transparent !important;
+    color: orange !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+.container-box {
+    border:1px solid #ffff;
+    border-radius: 10px;
+}
