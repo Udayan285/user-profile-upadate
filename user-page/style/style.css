@@ -3,7 +3,7 @@
 /* General body styling */
 body {
     background-color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -63,9 +63,10 @@ h3 {
 .form-btn:hover{
     background-color: darkgoldenrod;
 }
-/* .place-bg{
-    background-color: transparent;
-} */
+.place-bg{
+    padding: 10px;
+    padding-left: 20px;
+}
 .disabeled-bg{
     background-color: transparent !important;
     color: blue;
@@ -207,4 +208,13 @@ h3 {
 .mini-p{
     font-size: 12px;
     margin-left: -1px;
+}
+.email-field{
+    background-color: #6b6b6b !important;
+    outline: #dc7100;
+    border: 1px solid #6b6b6b;
+    padding: 10px;
+    padding-left: 20px;
+  
+    
 }
