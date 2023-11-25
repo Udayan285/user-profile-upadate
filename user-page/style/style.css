@@ -6,9 +6,6 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-
-
-
 /* Heading 5 styling */
 h5 {
     color: white;
@@ -57,8 +54,10 @@ h3 {
     user-select: none;
 }
 .form-btn{
-    background-color: orange;
+    background-color: #6b3b00;
+    color: #914f00;
     border: none;
+    padding: 15px;
 }
 .form-btn:hover{
     background-color: darkgoldenrod;
@@ -87,27 +86,10 @@ h3 {
     margin: 30px;
     margin-left: 0px;
     margin-right: 0px;
-   
-  
-    border-radius: 50%;
-   
-   
-
-   
-   
+    border-radius: 50%;  
 }
 
-
-
-
-
-
-
-
-
-
-.container-box {
-   
+.container-box { 
     border-radius: 10px;
 }
 
