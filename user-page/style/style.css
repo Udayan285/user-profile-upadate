@@ -16,6 +16,7 @@ body {
     border-radius: 50%;
     background-color: antiquewhite;
     color: black;
+    /* color: #dddddd; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -55,10 +56,42 @@ h3 {
     width: 50%;
 }
 .form-bg{
-    background-color: rgb(29, 29, 98);
+    background: #242a4a;
     padding: 15px;
     margin-top: 15px !important;
     border-radius: 20px;
+}
+/* .form-btn{
+    background-color: #6b3b00;
+    color: #914f00;
+
+
+        display: inline-flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 32px;
+        border-radius: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+        -webkit-user-select: none;
+        user-select: none;
+        transition: all .2s ease-in-out;
+        font-weight: 600;
+        outline: 1px solid transparent;
+        font-family: Montserrat;
+        border: none;
+    
+    
+} */
+.form-bg input{
+    color: #dddddd;
+    background-color: transparent;
+}
+.form-bg input::placeholder{
+    color: #dddddd;
+    user-select: none;
 }
 .form-btn{
     background-color: orange;
@@ -67,9 +100,9 @@ h3 {
 .form-btn:hover{
     background-color: darkgoldenrod;
 }
-.place-bg{
+/* .place-bg{
     background-color: transparent;
-}
+} */
 .disabeled-bg{
     background-color: transparent !important;
     color: blue;
@@ -99,4 +132,98 @@ h3 {
 .container-box {
     border:1px solid #ffff;
     border-radius: 10px;
+}
+
+/* //password change work */
+#mission .form-bg{
+    margin-left: 50px;
+    margin-top: 50px !important;
+   
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 1.25rem;
+        width: 400px !important;
+        gap: 2rem;
+        transition: all .2s ease;
+        background: #242a4a;
+        border-radius: .625rem;
+    
+}
+
+
+
+.pass-change-h3{
+    font-size: 1.25rem;
+    color: #ffff;
+    font-weight: 700;
+}
+
+#mission .form-bg .form-label{
+    color: var(--fidt-color-neutral-100);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#mission .form-bg input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dddd;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 16px;
+    border-radius: 10px;
+    color: #dddddd;
+    background-color: transparent;
+    font-family: Inter;
+}
+
+.form-btn-update{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px !important;
+    border-radius: 10px;
+    background-color: #b54242;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: all .2s ease-in-out;
+    font-weight: 600;
+    outline: 1px solid transparent;
+    font-family: Montserrat;
+    border: none;
+    margin-bottom: 20px;
+}
+.form-btn-update:hover{
+    background-color:#c63434 ;
+}
+
+
+.form-bg-2{
+    width: 350px !important;
+}
+
+.room .form-btn-update{
+ 
+        color: #ffffff;
+        background-color: #ff8c00;
+        outline-color: transparent;
+    
+}
+
+.room .room-label{
+  
+        color: #f1f1f1;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    
 }
